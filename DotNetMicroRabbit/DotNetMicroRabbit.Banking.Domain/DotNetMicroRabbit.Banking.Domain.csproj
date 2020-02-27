@@ -5,10 +5,15 @@
   </PropertyGroup>
 
   <ItemGroup>
-    <Folder Include="Commands\" />
-    <Folder Include="CommandHandlers\" />
-    <Folder Include="Events\" />
     <Folder Include="EventHandlers\" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="MediatR" Version="8.0.0" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\DotNetMicroRabbit.Domain.Core\DotNetMicroRabbit.Domain.Core.csproj" />
   </ItemGroup>
 
 </Project>

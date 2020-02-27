@@ -45,12 +45,7 @@ namespace DotNetMicroRabbit.Banking.Api
 
             services.AddMediatR(typeof(Startup));
 
-            RegisterServices(services);
-        }
-
-        private void RegisterServices(IServiceCollection services)
-        {
-            DependencyContainer.RegisterServices(services);
+            services.RegisterServices();
         }
 
         // This method gets called by the runtime. Use this method to configure the HTTP request pipeline.
