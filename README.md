@@ -14,9 +14,9 @@ There are many things to improve to next versions, like:
 To be able to execute this solution, the requirements are all about having a RabbitMQ for Messaging between microservices and a SQL Server Instance for storaging some data (for both microservices, the same server could be used, considering this sample situation obviously).
 
 ### RabbitMQ
-To install and configure a simple RabbitMQ Server Instance, use the [RabbitMQ Site](xref:https://www.rabbitmq.com/) to get and install the last version of it (together to Erlang, that is the RabbitMQ's pre-requirement). The current configuration to this server should be placed at the *BankingMicroRabbit.Infra.Bus.RabbitMQBus.cs* (this should be improved in the future to get this information from some configuration provider).
+To install and configure a simple RabbitMQ Server Instance, use the [RabbitMQ Site](https://www.rabbitmq.com/) to get and install the last version of it (together to Erlang, that is the RabbitMQ's pre-requirement). The current configuration to this server should be placed at the *BankingMicroRabbit.Infra.Bus.RabbitMQBus.cs* (this should be improved in the future to get this information from some configuration provider).
 
 ### SQL Server
-Any SQL Server could be used to execute this solution (even the local one). A tutorial for this installation could be found [here](xref:https://docs.microsoft.com/sql/database-engine/install-windows/install-sql-server?view=sql-server-ver15). The connection strings should be placed on the *appSettings.json* of the API projects.
+Any SQL Server could be used to execute this solution (even the local one). A tutorial for this installation could be found [here](https://docs.microsoft.com/sql/database-engine/install-windows/install-sql-server?view=sql-server-ver15). The connection strings should be placed on the *appSettings.json* of the API projects.
 
 
