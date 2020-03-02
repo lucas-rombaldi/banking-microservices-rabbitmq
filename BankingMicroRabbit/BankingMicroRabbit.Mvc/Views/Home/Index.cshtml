@@ -1,0 +1,25 @@
+﻿@{
+    ViewData["Title"] = "Home Page";
+}
+
+<div class="text-center">
+    <h1 class="display-4">Welcome</h1>
+</div>
+
+<form action="/home/transfer" method="post">
+    <p>
+        <label for="ToAccount">To Account:</label>
+        <input type="text" name="ToAccount" />
+    </p>
+    <p>
+        <label for="FromAccount">From Account:</label>
+        <input type="text" name="FromAccount" />
+    </p>
+    <p>
+        <label for="Amount">Amount:</label>
+        <input type="text" name="Amount" />
+    </p>
+    <p>
+        <input type="submit" name="Transfer" />
+    </p>
+</form>

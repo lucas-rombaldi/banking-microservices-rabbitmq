@@ -1,0 +1,16 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp3.1</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Folder Include="Models\" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\BankingMicroRabbit.Domain.Core\BankingMicroRabbit.Domain.Core.csproj" />
+    <ProjectReference Include="..\BankingMicroRabbit.Transfer.Domain\BankingMicroRabbit.Transfer.Domain.csproj" />
+  </ItemGroup>
+
+</Project>
