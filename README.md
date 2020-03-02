@@ -1,5 +1,5 @@
 # .NET Microservices Sample using RabbitMQ
-This is a first sample of solution using .NET Core as the Web Application/Microservices and using RabbitMQ as Message Broker. 
+This is a first sample of solution using .NET Core as the Web Application/API's and using RabbitMQ as the Message Broker.
 
 ## The Goal
 The basic idea of this solution is to maintain a Banking Microservice that receives Transfer Requests and delivers them to the Transfer Microsrevice, that is who actually does the job. Considering that scenario, we can see a synchronous communication (Web Application Back-End -> Banking Microservice) and a asynchronous communication (Banking Microservice -> RabbitMQ Queue -> Transfer Microservice).
