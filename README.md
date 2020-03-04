@@ -19,6 +19,7 @@ To be able to execute this solution, the requirements are all about having a Rab
 
 ### RabbitMQ
 To install and configure a simple RabbitMQ Server Instance, use the [RabbitMQ Site](https://www.rabbitmq.com/) to get and install the last version of it (together to Erlang, that is the RabbitMQ's pre-requirement). If possible, using a docker image of RabbitMQ should be much easier to configure your environment. The full command to pull this docker image can be found at [RabbitMQ Download Site](https://www.rabbitmq.com/download.html).
+
 The current configuration to this server should be placed at the *BankingMicroRabbit.Infra.Bus.RabbitMQBus.cs* (this should be improved in the future to get this information from some configuration provider).
 
 ### SQL Server
